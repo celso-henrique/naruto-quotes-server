@@ -6,8 +6,8 @@ from collections import OrderedDict
 
 class NarutoquotesSpider(scrapy.Spider):
     name = 'narutoQuotes'
-    allowed_domains = ['www.less-real.com']
-    start_urls = ['https://www.less-real.com/quotes/search/Naruto%2BShipp%25C5%25ABden%252C?s=newest&p_p=10&p_m=click&open_in=new_window']
+    allowed_domains = []
+    start_urls = []
     def parse(self, response):
         pass
         quotes = response.css('div.quote').css('span.quoteText::text').extract()
