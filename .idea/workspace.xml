@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef903922-a92c-4851-9673-c0376a81646a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scraper/dataCleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NarutoFactsApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NarutoFactsApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scraper/ScrapedQuotes/narutoquotes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper/narutoquotes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scraper/narutoQuotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper/narutoQuotes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scraper/narutoSquotes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
