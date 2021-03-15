@@ -1,6 +1,5 @@
 import random
 from flask import jsonify,request,Flask
-import numpy as np
 import pandas as pd
 NarutoApi = Flask(__name__)
 df = pd.read_csv('finalQuotes.csv', names=['Speakers', 'Quotes'])
