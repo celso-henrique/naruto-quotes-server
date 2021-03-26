@@ -1,17 +1,22 @@
 import random
 from flask import jsonify,request,Flask
+from flask_cors import CORS, cross_origin
 import pandas as pd
 
 NarutoApi = Flask(__name__)
+cors = CORS(NarutoApi)
+NarutoApi.config['CORS_HEADERS'] = 'Content-Type'
+
 df = pd.read_csv('finalQuotes.csv', names=['Speakers', 'Quotes'])
 
 def get_random_quote():
     rq = random.randint(0, len(df))
     speaking = df.values[rq][0]
     quote = df.values[rq][1]
-    quote_obj = {"Speaker": speaking, "Quote": quote}
+    quote_obj = {"speaker": speaking, "quote": quote}
     return quote_obj
 
+@cross_origin()
 @NarutoApi.route('/', methods=['GET'])
 def dashboard():
     return jsonify(get_random_quote())
