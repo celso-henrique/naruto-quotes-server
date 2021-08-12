@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 
 and finally run:
 ```sh
-python app.py
+python3 app.py
 
 ```
 
